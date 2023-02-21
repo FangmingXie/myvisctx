@@ -89,6 +89,10 @@ for num in num_genes:
     num = len(inds)
     propose_class_results[num] = inds
 
+    # Save results (in every step - and rewrite)
+    with open(output_res, 'wb') as f:
+        pickle.dump(propose_class_results, f)
+
 # Save results
 with open(output_res, 'wb') as f:
     pickle.dump(propose_class_results, f)
