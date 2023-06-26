@@ -1,9 +1,0 @@
-./03.bam2bed.sh: line 3: =./test_erna_data/P8_test.bam: No such file or directory
-./03.bam2bed.sh: line 4: =./test_erna_data/P8_test.v1.bed: No such file or directory
-./03.bam2bed.sh: line 6: $output: ambiguous redirect
-[E::hts_hopen] Failed to open file -
-[E::hts_open_format] Failed to open file "-" : Bad file descriptor
-samtools view: failed to open "-" for reading: Bad file descriptor
-Command exited with non-zero status 1
-0.00user 0.00system 0:00.00elapsed 120%CPU (0avgtext+0avgdata 3132maxresident)k
-0inputs+8outputs (0major+698minor)pagefaults 0swaps
